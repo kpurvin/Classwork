@@ -46,5 +46,5 @@ void drawCircle(float angle)
   float bri =random(100,100);
   color circle_color = color(hue,sat,bri);
   fill(circle_color);
-  circle(random(800),random(600), 120);
+  circle(random(800),random(600), random (50,120));
 }
