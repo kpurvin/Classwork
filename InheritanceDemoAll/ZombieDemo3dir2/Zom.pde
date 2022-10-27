@@ -26,6 +26,7 @@ Zombie()
       this.acceleration.y=0;
       this.velocity.y = 0;
       this.location.y=height/2- 200;
+      this.location.x = this.location.x;
       println("landed");
       this.isJumping = false;
     }
